@@ -1,0 +1,12 @@
+.grid{
+    width: 100%;
+    display: flex;
+    flex-flow: column;
+}
+.catalogo{
+    width: 90%;
+    margin: 0 auto;
+}
+h2{
+    margin: 20px 0px;
+}

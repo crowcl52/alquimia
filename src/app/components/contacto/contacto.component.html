@@ -1,3 +1,33 @@
-<p>
-  contacto works!
-</p>
+<div class="container">
+  <h2 class="top60" >Contacto</h2>
+  <form method="POST" action="" >
+      <div class="form-group top60">
+        <label for="email">Email:</label>
+        <input name="email" type="email" class="form-control" id="email" placeholder="name@example.com">
+      </div>
+      <div class="form-group">
+          <label for="name">Nombre:</label>
+          <input name="name" type="text" class="form-control" id="name" placeholder="name@example.com">
+        </div>
+        <div class="form-group">
+            <label for="phone">Teléfono:</label>
+            <input name="phone" type="phone" class="form-control" id="phone" placeholder="333-333-333">
+          </div>
+      <div class="form-group">
+        <label for="asunto">Asunto:</label>
+        <select name="asunto" class="form-control" id="asunto">
+          <option>1</option>
+          <option>2</option>
+          <option>3</option>
+          <option>4</option>
+          <option>5</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label  for="mensaje">Mensaje:</label>
+        <textarea name="message" class="form-control" id="mensaje" rows="3"></textarea>
+      </div>
+      <button type="submit" class="btn btn-primary btn-lg">Enviar</button>
+    </form>
+</div>
+<div class="top60"></div>

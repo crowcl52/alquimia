@@ -1,5 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import { PdfViewerModule } from 'ng2-pdf-viewer';
 
 // Services
 import {AlquimiaService} from './service/alquimia.service';
@@ -30,6 +31,7 @@ import { FooterComponent } from './components/compartidos/footer/footer.componen
   imports: [
     BrowserModule,
     APP_ROUTING,
+    PdfViewerModule 
   ],
   providers: [
     AlquimiaService,

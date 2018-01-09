@@ -1,3 +1,12 @@
-<p>
-  catalogo works!
-</p>
+<section class="grid">
+  <div class="catalogo">
+    <h2>Catalogo</h2>
+    <pdf-viewer [src]="pdfSrc" 
+      [render-text]="true"
+      
+      [original-size]="false"
+      [autoresize]="true"
+      style="display: block;"
+  ></pdf-viewer>
+  </div>
+</section>
