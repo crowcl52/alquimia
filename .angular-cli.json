@@ -24,7 +24,8 @@
       ],
       "scripts": [
         "./assets/jquery.min.js",
-        "./assets/bootstrap/js/bootstrap.js"
+        "./assets/bootstrap/js/bootstrap.js",
+        "./assets/particle/particles.min.js"
       ],
       "environmentSource": "environments/environment.ts",
       "environments": {

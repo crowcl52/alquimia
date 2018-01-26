@@ -6,6 +6,8 @@ import { PdfViewerModule } from 'ng2-pdf-viewer';
 import {AlquimiaService} from './service/alquimia.service';
 // Routes
 import {APP_ROUTING} from './app.routes';
+// Import ParticlesModule
+import { ParticlesModule } from 'angular-particle';
 
 
 import { AppComponent } from './app.component';
@@ -31,7 +33,8 @@ import { FooterComponent } from './components/compartidos/footer/footer.componen
   imports: [
     BrowserModule,
     APP_ROUTING,
-    PdfViewerModule 
+    PdfViewerModule,
+    ParticlesModule 
   ],
   providers: [
     AlquimiaService,
